@@ -1,6 +1,7 @@
-.mydiv{
-    color: red;
-}
-#div1{
-    color: red;
+.divstyle{
+    color:white;
+    background-color: seagreen;
+    padding: 50px;
+    margin:50px;
+    border: 50px solid black;
 }
