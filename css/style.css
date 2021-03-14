@@ -1,5 +1,13 @@
-.myDiv {
-    background-color: blue;
-    height:50px;
-    width: 50px;
+.myDiv{
+    background-color:yellowgreen;
+    color:red;
+    height: 200px;
+    width: 200px;
+    transition: all 3s linear;
+}
+
+.myDiv:hover{
+    height: 500px;
+    width: 300px;
+    background-color:blue;
 }
