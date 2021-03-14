@@ -1,7 +1,7 @@
 .divstyle{
     color:white;
-    background-color: seagreen;
+    background-color: rgb(55, 114, 81);
     padding: 50px;
     margin:50px;
-    border: 50px solid black;
+    border: 5px solid rgb(0, 255, 128);
 }
