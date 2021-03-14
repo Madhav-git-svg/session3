@@ -1,12 +1,5 @@
-.parent{
-    
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: darkolivegreen;
-    color:white;
-    text-align: center;
-    width: 1000px;
-    height: 200px;
-    border: 2px solid black;
-    overflow:scroll;
+.myDiv {
+    background-color: blue;
+    height:50px;
+    width: 50px;
 }
