@@ -1,14 +1,22 @@
 .myDiv{
-    /* background-color:yellowgreen; */
-    background: radial-gradient(blue, red);
-    color:red;
+    background-color:blue;
     height: 200px;
     width: 200px;
-    transition: all 2s linear;
+    position:relative;
+    /* transition: all 2s linear; */
+    animation:myFrame 3s ease;
 }
 
-.myDiv:hover{
-    height: 500px;
-    width: 300px;
-    /* background-color:blue; */
+@keyframes myFrame {
+    0%{
+        left:0px
+    }
+    50%{
+        left:50px
+    }
+
+
+    100%{
+        left:1000px;
+    }
 }
