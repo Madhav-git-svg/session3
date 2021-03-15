@@ -3,13 +3,17 @@
     padding: 20px;
     display: flex;
     flex-direction:row;
+    height:500px;
+    justify-content:space-evenly;
+    align-items: center;
 }
 
 
 .item{
-    background-color: lime;
+    background-color:blue;
     color: red;
-    flex-grow:1;
+    height: 20px;
+    /* flex-grow:1; */
 }
 
 /* .item1{ */
