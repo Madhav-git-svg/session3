@@ -1,13 +1,14 @@
 .myDiv{
-    background-color:yellowgreen;
+    /* background-color:yellowgreen; */
+    background: radial-gradient(blue, red);
     color:red;
     height: 200px;
     width: 200px;
-    transition: all 3s linear;
+    transition: all 2s linear;
 }
 
 .myDiv:hover{
     height: 500px;
     width: 300px;
-    background-color:blue;
+    /* background-color:blue; */
 }
