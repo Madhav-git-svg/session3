@@ -1,22 +1,17 @@
-.myDiv{
-    background-color:blue;
-    height: 200px;
-    width: 200px;
-    position:relative;
-    /* transition: all 2s linear; */
-    animation:myFrame 3s ease;
+.container{
+    background-color:lightskyblue;
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
 }
 
-@keyframes myFrame {
-    0%{
-        top:0px
-    }
-    50%{
-        top:50px
-    }
 
-
-    100%{
-        top:1000px;
-    }
+.item{
+    background-color: lime;
+    color: red;
+    flex-grow:1;
 }
+
+/* .item1{ */
+    /* width: 100px; */
+/* } */
